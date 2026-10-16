@@ -53,13 +53,13 @@ It runs in the browser with no install and no account. Open the link on a phone,
 
 <br />
 
-Every level is a small city block full of things to swallow. The longer you play, the bigger your black hole gets, and the bigger the things you can pull in. Cars and trucks need real mass. Buildings and towers need even more.
+Every level is a small city block full of things to swallow. The more you eat, the bigger your black hole gets, and the bigger the things you can pull in. Cars and trucks need real mass. Buildings and towers need even more.
 
 - **Drag to move.** Your black hole follows your finger.
 - **Eat to grow.** Anything close enough falls in, and every swallowed object adds mass.
 - **Chain it.** Swallow objects in quick succession to build a chain for a higher score.
-- **Hunt the order.** The top bar shows what the contract needs and how far along you are.
-- **Find the portal.** Once the order is complete, a glowing portal opens. Reach it to deliver.
+- **Hunt the order.** The bar at the top shows what the contract needs and how far along you are.
+- **Find the portal.** It lights up once the order is complete. Reach it to deliver.
 
 <br />
 
@@ -71,7 +71,7 @@ Every level is a small city block full of things to swallow. The longer you play
 4. Objects that are too big will wait until you have grown enough.
 5. Never swallow the white gift boxes. Each one costs you 5 seconds and breaks your chain.
 
-Pedestrians will run away from you and complain loudly. That is part of the experience.
+Pedestrians run away from you and complain loudly about it.
 
 ### Abilities
 
@@ -82,18 +82,11 @@ Pedestrians will run away from you and complain loudly. That is part of the expe
 
 Both abilities have a short cooldown, so use them when it counts.
 
-### Object sizes
+### Growing up
 
-The objects in the world range from tiny to colossal. Your size decides what you can swallow.
+Your black hole moves through six size tiers as it swallows more mass. A banner announces each new tier, and bigger objects become available.
 
-| Tier | Examples |
-| --- | --- |
-| Micro | Cones, trash, pedestrians |
-| Small | Crates, barrels, signs |
-| Medium | Benches, cars, containers |
-| Large | Trucks, buses |
-| Massive | Buildings |
-| Colossal | Towers |
+**Micro** → **Small** → **Medium** → **Large** → **Massive** → **Colossal**
 
 <br />
 
@@ -108,7 +101,7 @@ There are 8 worlds with 2 levels each. Every world has its own look, its own set
 | 3 | Industrial Zone | 12 crates (timed) · 2 containers |
 | 4 | Port | 14 crates (timed, windy) · 1 truck |
 | 5 | Metropolis | 30 objects (timed) · 1 building |
-| 6 | Future City | 2 buses (windy) · 3 gold bars (timed) |
+| 6 | Future City | 2 buses (windy) · 3 gold (timed) |
 | 7 | Orbital Facility | 35 objects (timed, windy) · 3 trucks |
 | 8 | The Impossible Delivery | 3 buildings · 1 tower (windy) |
 
