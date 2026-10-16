@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 320" width="900" height="320" role="img" aria-label="Blackhole Delivery: a glowing black hole swallowing crates, cones and cars">
+<defs>
+<radialGradient id="hg"><stop offset="0" stop-color="#ff4fa3" stop-opacity=".55"/><stop offset=".5" stop-color="#ffb347" stop-opacity=".18"/><stop offset="1" stop-color="#ffb347" stop-opacity="0"/></radialGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd27a"/><stop offset=".5" stop-color="#ff4fa3"/><stop offset="1" stop-color="#ffb347"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0718"/><stop offset=".6" stop-color="#150d33"/><stop offset="1" stop-color="#221046"/></linearGradient>
+<g id="crate"><rect x="-11" y="-11" width="22" height="22" rx="3" fill="#c98a4b"/><path d="M-11-11L11 11M11-11L-11 11" stroke="#8a5a2a" stroke-width="2"/></g>
+<g id="cone"><path d="M0-11L10 9H-10Z" fill="#ff7a3d"/><rect x="-5" y="1" width="10" height="3" fill="#fff"/></g>
+<g id="barrel"><circle r="11" fill="#3f7fd6"/><circle r="6" fill="none" stroke="#8fb6f0" stroke-width="2"/></g>
+<g id="car"><rect x="-9" y="-18" width="18" height="36" rx="5" fill="#ff4f7b"/><rect x="-6" y="-8" width="12" height="9" rx="2" fill="#4a1a33"/></g>
+<g id="sign"><circle r="10" fill="#ffd23f"/><path d="M-5 5L5-5" stroke="#3a2a00" stroke-width="3"/></g>
+<g id="npc"><circle r="6" fill="#6bd6ff"/><path d="M-9-2L-6 0M9-2L6 0" stroke="#6bd6ff" stroke-width="2.4" stroke-linecap="round"/></g>
+<g id="bus"><rect x="-12" y="-26" width="24" height="52" rx="5" fill="#ffb02e"/><rect x="-8" y="-20" width="16" height="12" rx="2" fill="#5a3a00"/></g>
+<style>
+.tw{animation:tw 3s ease-in-out infinite}.tw2{animation:tw 4.3s ease-in-out infinite .9s}
+@keyframes tw{0%,100%{opacity:.2}50%{opacity:1}}
+.sp{transform-box:fill-box;transform-origin:center;animation:sp 7s linear infinite}
+.sp2{transform-box:fill-box;transform-origin:center;animation:sp 11s linear infinite reverse}
+@keyframes sp{to{transform:rotate(360deg)}}
+.pl{transform-box:fill-box;transform-origin:center;animation:pl 2.6s ease-in-out infinite}
+@keyframes pl{0%,100%{transform:scale(1);opacity:.6}50%{transform:scale(1.18);opacity:1}}
+@media (prefers-reduced-motion:reduce){.tw,.tw2,.sp,.sp2,.pl{animation:none}}
+</style>
+</defs>
+<rect width="900" height="320" rx="22" fill="url(#bg)"/>
+<g fill="#e9e4ff"><circle cx="475" cy="296" r="1.5" class="tw2"/><circle cx="532" cy="310" r=".9" class="tw"/><circle cx="835" cy="272" r="1.5" class="tw"/><circle cx="640" cy="105" r=".7" class="tw2"/><circle cx="322" cy="82" r=".7" class="tw"/><circle cx="841" cy="31" r="1.5" class="tw2"/><circle cx="76" cy="40" r=".7" class="tw"/><circle cx="259" cy="25" r="1.5" class="tw2"/><circle cx="463" cy="110" r=".9" class="tw"/><circle cx="313" cy="265" r=".7" class="tw2"/><circle cx="99" cy="244" r="1.2" class="tw"/><circle cx="576" cy="52" r="1.2" class="tw2"/><circle cx="788" cy="127" r="1.2" class="tw"/><circle cx="122" cy="158" r="1.5" class="tw2"/><circle cx="418" cy="224" r=".7" class="tw"/><circle cx="431" cy="70" r=".9" class="tw2"/><circle cx="735" cy="61" r=".7" class="tw"/><circle cx="207" cy="77" r="1.5" class="tw2"/><circle cx="389" cy="200" r="1.5" class="tw"/><circle cx="613" cy="257" r=".9" class="tw2"/><circle cx="769" cy="293" r=".9" class="tw"/><circle cx="733" cy="210" r="1.2" class="tw2"/></g>
+<g transform="translate(700 160)"><circle r="97" fill="url(#hg)" class="pl"/><circle r="55" fill="none" stroke="url(#ring)" stroke-width="10" class="sp"/><circle r="46" fill="none" stroke="#ffe3a6" stroke-opacity=".55" stroke-width="2" stroke-dasharray="6 10" class="sp2"/><circle r="44" fill="#02000a"/><circle r="24" fill="none" stroke="#fff" stroke-opacity=".12" stroke-width="2" class="sp2"/></g>
+<g><animateMotion dur="3.6s" repeatCount="indefinite" path="M560 60Q595 159 700 160"/><animateTransform attributeName="transform" type="scale" values="1;1;.05" keyTimes="0;.7;1" dur="3.6s" repeatCount="indefinite"/><use href="#crate" xlink:href="#crate"/></g>
+<g><animateMotion dur="4.1s" begin="-.5s" repeatCount="indefinite" path="M600 270Q688 250 700 160"/><animateTransform attributeName="transform" type="scale" values="1.1;1.1;.05" keyTimes="0;.7;1" dur="4.1s" begin="-.5s" repeatCount="indefinite"/><use href="#cone" xlink:href="#cone"/></g>
+<g><animateMotion dur="4.6s" begin="-1s" repeatCount="indefinite" path="M820 60Q725 68 700 160"/><animateTransform attributeName="transform" type="scale" values="1;1;.05" keyTimes="0;.7;1" dur="4.6s" begin="-1s" repeatCount="indefinite"/><use href="#barrel" xlink:href="#barrel"/></g>
+<g><animateMotion dur="3.6s" begin="-1.4s" repeatCount="indefinite" path="M840 250Q802 156 700 160"/><animateTransform attributeName="transform" type="scale" values=".9;.9;.05" keyTimes="0;.7;1" dur="3.6s" begin="-1.4s" repeatCount="indefinite"/><use href="#car" xlink:href="#car"/></g>
+<g><animateMotion dur="4.1s" begin="-1.8s" repeatCount="indefinite" path="M520 180Q617 233 700 160"/><animateTransform attributeName="transform" type="scale" values="1.2;1.2;.05" keyTimes="0;.7;1" dur="4.1s" begin="-1.8s" repeatCount="indefinite"/><use href="#npc" xlink:href="#npc"/></g>
+<g><animateMotion dur="4.6s" begin="-2.3s" repeatCount="indefinite" path="M760 290Q776 204 700 160"/><animateTransform attributeName="transform" type="scale" values="1;1;.05" keyTimes="0;.7;1" dur="4.6s" begin="-2.3s" repeatCount="indefinite"/><use href="#sign" xlink:href="#sign"/></g>
+<g><animateMotion dur="3.6s" begin="-2.7s" repeatCount="indefinite" path="M880 150Q786 92 700 160"/><animateTransform attributeName="transform" type="scale" values=".9;.9;.05" keyTimes="0;.7;1" dur="3.6s" begin="-2.7s" repeatCount="indefinite"/><use href="#crate" xlink:href="#crate"/></g>
+<g><animateMotion dur="4.6s" begin="-3.6s" repeatCount="indefinite" path="M500 290Q646 295 700 160"/><animateTransform attributeName="transform" type="scale" values=".7;.7;.05" keyTimes="0;.7;1" dur="4.6s" begin="-3.6s" repeatCount="indefinite"/><use href="#bus" xlink:href="#bus"/></g>
+<text x="48" y="128" font-family="'Baloo 2',ui-rounded,system-ui,Segoe UI,sans-serif" font-size="76" font-weight="800" fill="#f6efe3" letter-spacing="1">BLACK<tspan fill="#ffb347">HOLE</tspan></text>
+<text x="48" y="206" font-family="'Baloo 2',ui-rounded,system-ui,Segoe UI,sans-serif" font-size="76" font-weight="800" fill="#f6efe3" letter-spacing="1">DELIVERY</text>
+<text x="52" y="248" font-family="'Baloo 2',ui-rounded,system-ui,Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#4de8ff" letter-spacing="9">BEURA LABS</text>
+</svg>

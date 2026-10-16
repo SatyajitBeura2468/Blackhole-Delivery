@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 388 700" width="388" height="700" role="img" aria-label="Blackhole Delivery gameplay in Downtown: a black hole swallowing crates, cones and people">
+<defs>
+<radialGradient id="hg"><stop offset="0" stop-color="#ff4fa3" stop-opacity=".55"/><stop offset=".5" stop-color="#ffb347" stop-opacity=".18"/><stop offset="1" stop-color="#ffb347" stop-opacity="0"/></radialGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd27a"/><stop offset=".5" stop-color="#ff4fa3"/><stop offset="1" stop-color="#ffb347"/></linearGradient>
+<clipPath id="scr"><rect x="10" y="10" width="368" height="680" rx="38"/></clipPath>
+<g id="crate"><rect x="-11" y="-11" width="22" height="22" rx="3" fill="#c98a4b"/><path d="M-11-11L11 11M11-11L-11 11" stroke="#8a5a2a" stroke-width="2"/></g>
+<g id="cone"><path d="M0-11L10 9H-10Z" fill="#ff7a3d"/><rect x="-5" y="1" width="10" height="3" fill="#fff"/></g>
+<g id="sign"><circle r="10" fill="#ffd23f"/><path d="M-5 5L5-5" stroke="#3a2a00" stroke-width="3"/></g>
+<g id="npc"><circle r="6" fill="#6bd6ff"/><path d="M-9-2L-6 0M9-2L6 0" stroke="#6bd6ff" stroke-width="2.4" stroke-linecap="round"/></g>
+<g id="npc2"><circle r="6" fill="#ff6b8b"/><path d="M-9-2L-6 0M9-2L6 0" stroke="#ff6b8b" stroke-width="2.4" stroke-linecap="round"/></g>
+<g id="npc3"><circle r="6" fill="#9dff6b"/><path d="M-9-2L-6 0M9-2L6 0" stroke="#9dff6b" stroke-width="2.4" stroke-linecap="round"/></g>
+<style>
+.sp{transform-box:fill-box;transform-origin:center;animation:sp 7s linear infinite}
+.sp2{transform-box:fill-box;transform-origin:center;animation:sp 11s linear infinite reverse}
+@keyframes sp{to{transform:rotate(360deg)}}
+.pl{transform-box:fill-box;transform-origin:center;animation:pl 2.6s ease-in-out infinite}
+@keyframes pl{0%,100%{transform:scale(1);opacity:.6}50%{transform:scale(1.18);opacity:1}}
+@media (prefers-reduced-motion:reduce){.sp,.sp2,.pl{animation:none}}
+</style>
+</defs>
+<rect x="2" y="2" width="384" height="696" rx="46" fill="#05030d" stroke="#3a2a66" stroke-width="3"/>
+<g clip-path="url(#scr)">
+<rect x="10" y="10" width="368" height="680" fill="#2c2644"/>
+<path d="M10 150H378M10 330H378M10 520H378M10 650H378M92 10V690M276 10V690" stroke="#383058" stroke-width="2"/>
+<rect x="92" y="10" width="92" height="680" fill="#463d6c"/><rect x="10" y="248" width="368" height="86" fill="#463d6c"/>
+<path d="M138 10V690M10 291H378" stroke="#e9e4ff" stroke-opacity=".35" stroke-width="3" stroke-dasharray="26 22"/>
+<use href="#cone" xlink:href="#cone" x="34" y="140"/><use href="#sign" xlink:href="#sign" x="60" y="190"/><use href="#sign" xlink:href="#sign" x="226" y="150"/><use href="#crate" xlink:href="#crate" x="304" y="222"/><use href="#cone" xlink:href="#cone" x="350" y="300"/><use href="#npc3" xlink:href="#npc3" x="316" y="130"/><use href="#npc2" xlink:href="#npc2" x="340" y="380"/><use href="#crate" xlink:href="#crate" x="250" y="430"/><use href="#cone" xlink:href="#cone" x="226" y="410"/><use href="#npc" xlink:href="#npc" x="165" y="520"/><use href="#npc" xlink:href="#npc" x="245" y="530"/><use href="#npc2" xlink:href="#npc2" x="120" y="590"/>
+<g fill="#7d8a96"><circle cx="150" cy="120" r="7"/><circle cx="250" cy="128" r="7"/><circle cx="35" cy="236" r="7"/><circle cx="300" cy="310" r="7"/><circle cx="52" cy="436" r="7"/><circle cx="300" cy="596" r="7"/></g>
+<g><animateMotion dur="3s" repeatCount="indefinite" path="M250 430Q232 392 190 396"/><animateTransform attributeName="transform" type="scale" values="1;1;.05" keyTimes="0;.7;1" dur="3s" repeatCount="indefinite"/><use href="#crate" xlink:href="#crate"/></g>
+<g><animateMotion dur="3.6s" begin="-.5s" repeatCount="indefinite" path="M226 410Q213 390 190 396"/><animateTransform attributeName="transform" type="scale" values="1;1;.05" keyTimes="0;.7;1" dur="3.6s" begin="-.5s" repeatCount="indefinite"/><use href="#cone" xlink:href="#cone"/></g>
+<g><animateMotion dur="4.2s" begin="-1s" repeatCount="indefinite" path="M165 520Q221 467 190 396"/><animateTransform attributeName="transform" type="scale" values="1;1;.05" keyTimes="0;.7;1" dur="4.2s" begin="-1s" repeatCount="indefinite"/><use href="#npc" xlink:href="#npc"/></g>
+<g><animateMotion dur="3s" begin="-1.5s" repeatCount="indefinite" path="M226 150Q122 260 190 396"/><animateTransform attributeName="transform" type="scale" values="1;1;.05" keyTimes="0;.7;1" dur="3s" begin="-1.5s" repeatCount="indefinite"/><use href="#sign" xlink:href="#sign"/></g>
+<g><animateMotion dur="3.6s" begin="-2s" repeatCount="indefinite" path="M340 380Q259 336 190 396"/><animateTransform attributeName="transform" type="scale" values="1;1;.05" keyTimes="0;.7;1" dur="3.6s" begin="-2s" repeatCount="indefinite"/><use href="#npc2" xlink:href="#npc2"/></g>
+<g><animateMotion dur="4.2s" begin="-2.5s" repeatCount="indefinite" path="M304 222Q186 269 190 396"/><animateTransform attributeName="transform" type="scale" values="1;1;.05" keyTimes="0;.7;1" dur="4.2s" begin="-2.5s" repeatCount="indefinite"/><use href="#crate" xlink:href="#crate"/></g>
+<g transform="translate(190 396)"><circle r="75" fill="url(#hg)" class="pl"/><circle r="42" fill="none" stroke="url(#ring)" stroke-width="7" class="sp"/><circle r="36" fill="none" stroke="#ffe3a6" stroke-opacity=".55" stroke-width="2" stroke-dasharray="6 10" class="sp2"/><circle r="34" fill="#02000a"/><circle r="19" fill="none" stroke="#fff" stroke-opacity=".12" stroke-width="2" class="sp2"/></g>
+<circle cx="206" cy="366" r="40" fill="none" stroke="#e9e4ff" stroke-opacity=".28" stroke-width="2"/><circle cx="238" cy="408" r="14" fill="#e9e4ff" fill-opacity=".35"/>
+<circle cx="42" cy="64" r="22" fill="#12102a" fill-opacity=".85" stroke="#3a2a66"/><path d="M33 64a9 9 0 1 1 3 7M33 56v8h8" fill="none" stroke="#f6efe3" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="170" y="70" text-anchor="middle" font-family="'Baloo 2',ui-rounded,system-ui,Segoe UI,sans-serif" font-size="19" font-weight="800" fill="#f6efe3">1 / 20 OBJECTS</text>
+<text x="316" y="70" text-anchor="end" font-family="'Baloo 2',ui-rounded,system-ui,Segoe UI,sans-serif" font-size="20" font-weight="800" fill="#f6efe3">8s</text>
+<circle cx="346" cy="64" r="22" fill="#12102a" fill-opacity=".85" stroke="#3a2a66"/><path d="M337 65l9-9 9 9M339 64v10h14V64" fill="none" stroke="#f6efe3" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="42" y="98" width="304" height="10" rx="5" fill="#f6efe3" fill-opacity=".18"/><rect x="42" y="98" width="30" height="10" rx="5" fill="url(#ring)"/>
+<circle cx="316" cy="548" r="34" fill="#12102a" fill-opacity=".88" stroke="#4de8ff" stroke-width="3"/><text x="316" y="554" text-anchor="middle" font-family="'Baloo 2',ui-rounded,system-ui,Segoe UI,sans-serif" font-size="15" font-weight="800" fill="#f6efe3" letter-spacing="1">PULSE</text>
+<circle cx="316" cy="626" r="34" fill="#12102a" fill-opacity=".88" stroke="#4de8ff" stroke-width="3"/><text x="316" y="632" text-anchor="middle" font-family="'Baloo 2',ui-rounded,system-ui,Segoe UI,sans-serif" font-size="15" font-weight="800" fill="#f6efe3" letter-spacing="1">DASH</text>
+</g>
+<rect x="162" y="16" width="64" height="16" rx="8" fill="#05030d"/>
+</svg>
