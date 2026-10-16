@@ -6,7 +6,7 @@
 
 **Swallow the shipment. Grow your gravity. Find the portal. Try not to eat the wrong thing.**
 
-<a href="https://blackhole-delivery-teamsatyajitbeura.vercel.app">
+<a href="https://blackhole-delivery.vercel.app">
   <img src="https://img.shields.io/badge/PLAY%20BLACKHOLE%20DELIVERY-LAUNCH%20GAME-ff9a2e?style=for-the-badge&logo=vercel&logoColor=white" alt="Launch Blackhole Delivery" />
 </a>
 
@@ -116,7 +116,7 @@ The game is configured for static hosting on Vercel. The production deployment f
 
 <div align="center">
 
-<a href="https://blackhole-delivery-teamsatyajitbeura.vercel.app">
+<a href="https://blackhole-delivery.vercel.app">
   <img src="https://img.shields.io/badge/OPEN%20THE%20PORTAL-PLAY%20NOW-ff4fa3?style=for-the-badge&logo=vercel&logoColor=white" alt="Open the live game" />
 </a>
 
